@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'com.github.ben-manes.versions'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.20'
+
+    testCompile 'junit:junit:4.12'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.12.0'
+    }
+}
