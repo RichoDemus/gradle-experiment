@@ -7,3 +7,6 @@ Different gradle experiments
 
 ### Check for outdated dependencies/plugins
     ./gradlew dependencyUpdates
+
+### Check for unused dependencies
+    ./gradlew analyzeDependencies
